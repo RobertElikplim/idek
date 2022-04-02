@@ -1,0 +1,14 @@
+{
+    "name": "bronnas-tech",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "install": "cd pudc && npm install && cd ../backend && npm install",
+      "build": "cd pudc && npm run build",
+      "start": "npm install && node ./backend/index.js"
+    },
+    "author": "",
+    "license": "ISC"
+}
+  
